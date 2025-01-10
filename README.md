@@ -16,8 +16,8 @@ Custom keyboard layout combining Ukrainian and English with Caps Lock language s
 ## Features
 * Language indication via Caps Lock LED — instantly know which language you're using.
 * Default English ABC layout used as the base layer, default Ukrainian as the Caps Lock one.
-* Consistent `Shift` `Number` symbol mapping from English layout across both languages.
-* Latin symbols that overlap with Cyrillic letters are accessible via `Option` `Symbol` and `Shift` `Option` `Symbol` combinations, except for `,` `.` `/` which follow special rules to maintain a familiar Cyrillic layout.
+* Consistent `Shift` `Number` symbol mapping from English layout across both languages.
+* Latin symbols that overlap with Cyrillic letters are accessible via `Option` `Symbol` and `Shift` `Option` `Symbol` combinations, except for `,` `.` `/` which follow special rules to maintain a familiar Cyrillic layout.
 * Enhanced with typography and development-specific symbols.
 
 ## Installation
@@ -36,5 +36,5 @@ sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesig
 ```
 
 ## Known Issues
-* Some applications use `Option` `Key` or `Shift` `Option` `Key` combinations as shortcuts. If you encounter conflicts, temporarily switch to another app to input the desired character, then copy and paste it back.
+* Some applications use `Option` `Key` or `Shift` `Option` `Key` combinations as shortcuts. If you encounter conflicts, temporarily switch to another app to input the desired character, then copy and paste it back.
 * CleanShot custom shortcut engine uses Caps Lock letters by default, causing some key combinations to fail. Switch to another keyboard layout when using CleanShot shortcuts.
