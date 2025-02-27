@@ -1,5 +1,5 @@
 # UABC
-Custom keyboard layout combining Ukrainian and English with Caps Lock language switching for macOS. Created with [Ukelele](https://software.sil.org/ukelele).
+Custom keyboard layout combining Ukrainian and English languages with Caps Lock switching for macOS.
 
 <img src="assets/00.png" width=320>
 
@@ -14,10 +14,10 @@ Custom keyboard layout combining Ukrainian and English with Caps Lock language s
 </details>
 
 ## Features
-* Language indication via Caps Lock LED — instantly know which language you're using.
+* Caps Lock LED indicates current input language.
 * Default English ABC layout used as the base layer, default Ukrainian as the Caps Lock one.
 * Consistent `Shift` `Number` symbol mapping from English layout across both languages.
-* Latin symbols that overlap with Cyrillic letters are accessible via `Option` `Symbol` and `Shift` `Option` `Symbol` combinations, except for `,` `.` `/` which follow special rules to maintain a familiar Cyrillic layout.
+* Latin symbols that overlap with Cyrillic letters are accessible via `Option` `Symbol` and `Shift` `Option` `Symbol` combinations, except for `,` `.` `/` which follow familiar Cyrillic layout.
 * Enhanced with typography and development-specific symbols.
 
 ## Installation
@@ -26,15 +26,15 @@ Custom keyboard layout combining Ukrainian and English with Caps Lock language s
 <br />    `~/Library/Keyboard Layouts` for current user, recommended;
 <br />    `/Library/Keyboard Layouts` for all users, macOS Sierra or earlier.
 3. Open `System Settings > Keyboard > Input Sources`, press `+` button and add UABC layout from English section.
-4. You might need to log out and back in for the layout to work properly.
+4. Log out and back in for the layout to work properly.
 
 ## Usage Tips
-1. To reduce Caps Lock delay, install [CapsLockNoDelay](https://github.com/gkpln3/CapsLockNoDelay).
-2. To remove blue cursor indicator, run the command below in the terminal and reboot the system:
+1. Reduce Caps Lock button press delay by installing [CapsLockNoDelay](https://github.com/gkpln3/CapsLockNoDelay).
+2. Remove blue Caps Lock cursor indicator by running the command below in the terminal and reboot the system:
 ```
 sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesigned_text_cursor -dict-add Enabled -bool NO
 ```
 
 ## Known Issues
 * Some applications use `Option` `Key` or `Shift` `Option` `Key` combinations as shortcuts. If you encounter conflicts, temporarily switch to another app to input the desired character, then copy and paste it back.
-* CleanShot custom shortcut engine uses Caps Lock letters by default, causing some key combinations to fail. Switch to another keyboard layout when using CleanShot shortcuts.
+* CleanShot's custom shortcut engine uses Caps Lock letters by default, causing some key combinations to fail. Switch to another keyboard layout when using CleanShot shortcuts.
