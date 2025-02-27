@@ -30,7 +30,7 @@ Custom keyboard layout combining Ukrainian and English languages with Caps Lock 
 
 ## Usage Tips
 1. Reduce Caps Lock button press delay by installing [CapsLockNoDelay](https://github.com/gkpln3/CapsLockNoDelay).
-2. Remove blue Caps Lock cursor indicator by running the command below in the terminal and reboot the system:
+2. Remove blue Caps Lock cursor indicator by running the terminal command and rebooting the system:
 ```
 sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesigned_text_cursor -dict-add Enabled -bool NO
 ```
