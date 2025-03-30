@@ -1,4 +1,6 @@
-<img src="assets/00.png" width=200>
+<p align="center">
+<img src="assets/00.png" width=180>
+</p>
 
 # UABC
 Custom keyboard layout combining Ukrainian and English languages with Caps Lock switching for macOS.
