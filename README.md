@@ -4,7 +4,7 @@ Custom keyboard layout combining Ukrainian and English languages with Caps Lock 
 <img src="assets/00.png" width=320>
 
 <details>
-<summary>&nbsp;🟡&nbsp; Preview layers</summary>
+<summary>View layers 🇺🇦</summary>
 <img src="assets/01.png">
 <img src="assets/02.png">
 <img src="assets/03.png">
