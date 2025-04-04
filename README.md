@@ -1,12 +1,11 @@
-<p align="center">
+<div align="center">
 <img src="assets/00.png" width=180>
-</p>
-
+  
 # UABC
-Custom keyboard layout combining Ukrainian and English languages with Caps Lock switching for macOS.
+Ukrainian–English macOS keyboard layout with Caps Lock switch.
 
 <details>
-<summary>View layers 🇺🇦</summary>
+<summary><ins>View layers</ins></summary>
 <img src="assets/01.png">
 <img src="assets/02.png">
 <img src="assets/03.png">
@@ -14,10 +13,11 @@ Custom keyboard layout combining Ukrainian and English languages with Caps Lock 
 <img src="assets/05.png">
 <img src="assets/06.png">
 </details>
+</div>
 
 ## Features
 * Caps Lock LED indicates current input language.
-* Default English ABC layout used as the base layer, default Ukrainian as the Caps Lock one.
+* Default English ABC layout as the base layer, default Ukrainian as the Caps Lock one.
 * Consistent `Shift` `Number` symbol mapping from English layout across both languages.
 * Latin symbols that overlap with Cyrillic letters are accessible via `Option` `Symbol` and `Shift` `Option` `Symbol` combinations, except for `,` `.` `/` which follow familiar Cyrillic layout.
 * Enhanced with typography and development-specific symbols.
@@ -39,4 +39,4 @@ sudo defaults write /Library/Preferences/FeatureFlags/Domain/UIKit.plist redesig
 
 ## Known Issues
 * Some applications use `Option` `Key` or `Shift` `Option` `Key` combinations as shortcuts. If you encounter conflicts, temporarily switch to another app to input the desired character, then copy and paste it back.
-* CleanShot's custom shortcut engine uses Caps Lock letters by default, causing some key combinations to fail. Switch to another keyboard layout when using CleanShot shortcuts.
+* CleanShot App's custom shortcut engine uses Caps Lock letters by default, causing some key combinations to fail. Switch to another keyboard layout when using CleanShot shortcuts.
